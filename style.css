@@ -36,7 +36,7 @@ navbar{
 }
 /* main section */
 .main{
-    background:url(./Profile.jpg) no-repeat;
+    background:url(./Profile2.jpg) no-repeat;
     background-size:cover;
     width:100vw;
     height:95vh;
@@ -53,6 +53,7 @@ navbar{
 .main h2{
     font-size:4.4rem;
     font-weight:700;
+    color:white;
 }
 .main h6{
     font-size:1.4rem;
