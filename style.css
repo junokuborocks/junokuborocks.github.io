@@ -6,7 +6,7 @@
 scroll-behavior: smooth;
 }
 html, body{
-  width:100%;
+  /* width:100%; */
   overflow-x: hidden;
 }
 /* 
@@ -75,40 +75,46 @@ background-position: 50% ;
     font-size:1.4rem;
     text-transform: uppercase;
     line-height:1;
-    border-bottom:3px solid rgb(233, 20, 109);
+    border-bottom:3px solid #FB8500;
     width:68%;
 }
 
 .main .btn1{
 height:55px;
 width:138px;
-background-color:rgb(233, 20, 109);
-color:white;
+background-color:#FFB703;
+color:#023047;
 outline:none;
 border:none;
 font-weight:bold;
 border-radius:5px;
 }
 .main .btn1:hover{
-    background-color:rgb(197, 17, 92);
+    background-color:#023047;
+    font-weight: bold;
+    color:#FFB703;
     transition:0.5s;
 }
 .main .btn2{
     height:55px;
     width:138px;
     background-color:transparent;
-    color:rgb(233, 20, 109);
+    color:#FB8500;
     outline:none;
-    border:1px solid rgb(233, 20, 109);
+    border:1px solid #FB8500;
     font-weight:bold;
     border-radius:5px;
 }
 .main .btn2:hover{
-        background-color:rgb(233, 20, 109);
+        background-color:#023047;
         transition:0.5s;
-        color:white;
+        font-weight: bold;
+        color:#FFB703;
  }
-
+.about{
+  background-color: #8ecae671;
+  color:#023047;
+}
  .about img{
      filter:grayscale(100%);
      -webkit-box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51); 
@@ -118,35 +124,47 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
      font-size:3rem;
      font-weight:900;
  }
+ .about h1{
+   color:#ff8800;
+ }
+ #name {
+   color:#ff8800;
+ }
 
  .about .btn1{
      height:40px;
      width:145px;
      outline:none;
      border:none;
-     background-color:black;
-     color:white;
+     background-color:#023047;
+     color:#219EBC;
+     font-weight: bold;
      border-radius:4px;
  }
  .about .btn1:hover{
      background-color: transparent;
-     color:black;
-     border: 1px solid black;
+     color:#023047;
+     border: 1px solid #023047;
      transition:0.5s;
  }
  .about .btn2{
     height:40px;
     width:145px;
     outline:none;
-    border:1px solid black;
+    border:1px solid #023047;
     background-color:transparent;
-    color:black;
+    color:#023047;
+    font-weight: bold;
     border-radius:4px;
 }
 .about .btn2:hover{
-    background-color: black;
-    color:white;
+    background-color: #023047;
+    color:#FFB703;
+    font-weight: bold;
     transition:0.5s;
+}
+.skills{
+  background-color: #ffb8038e;
 }
 .card{
     border:none;
