@@ -3,7 +3,7 @@
     margin:0;
     box-sizing:border-box;
 scroll-behavior: smooth;
-overflow-x: hidden;
+
 }
 /* 
 #load{
@@ -41,7 +41,7 @@ navbar{
   background:url(./Profile2.jpg) no-repeat;
 background-size: cover;
 background-position: 50% ; 
-
+overflow-x: hidden;
 
 }
 .main h2, h3, h6{
@@ -55,6 +55,7 @@ background-position: 50% ;
     background-size:cover;
     width:100vw;
     height:95vh;
+    overflow-x: hidden;
 }
 }
 
