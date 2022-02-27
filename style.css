@@ -226,15 +226,18 @@ transition:0.5s;
   opacity:1;
   transition:0.3s;
 }
-
+.portfolio{
+  overflow-x:hidden;
+}
 .portfolio ul{
   padding-left:0;
 }
-/* @media (max-width:600){
-  .control{
+@media screen and (max-width: 480px) {
+  .control {
     display:none;
+    /* visibility:hidden; */
   }
-} */
+}
 /* animation on scroll */
 
     /* .reveal{
