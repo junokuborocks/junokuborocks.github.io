@@ -13,13 +13,6 @@ function reveal() {
   }
 
   var cv=document.getElementById('cv');
-  console.log(cv);
-// function downloading(){
-//   // alert('Downloading CV...');
-//   console.log('workgin')
-// }
-
-
   cv.addEventListener("click", function(){
   
       alert('Downloading CV...');
