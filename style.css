@@ -3,7 +3,7 @@
     margin:0;
     box-sizing:border-box;
 scroll-behavior: smooth;
-
+/* font-family: 'Poppins', sans-serif; */
 }
 body{
     overflow-x: hidden;
@@ -318,7 +318,11 @@ transition:0.5s;
     font-size: 2.25rem;
     line-height: 2rem;
   } */
-
+  /* .footer {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    background-size: cover;
+    
+} */
   .back-to-top {
     position: fixed;
     bottom: 25px;
