@@ -91,11 +91,12 @@ border-radius:5px;
     background-color:rgb(197, 17, 92);
     transition:0.5s;
 }
+
 .main .btn2{
     height:55px;
     width:138px;
     background-color:transparent;
-    color:rgb(233, 20, 109);
+  
     outline:none;
     border:1px solid rgb(233, 20, 109);
     font-weight:bold;
@@ -106,7 +107,10 @@ border-radius:5px;
         transition:0.5s;
         color:white;
  }
-
+.main .btn2 a{
+  text-decoration:none;
+  color:rgb(233, 20, 109);
+}
  .about img{
      filter:grayscale(100%);
      -webkit-box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51); 
