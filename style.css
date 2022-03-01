@@ -140,7 +140,7 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
      border: 1px solid black;
      transition:0.5s;
  }
- .about .btn2{
+ .about  .btn2 {
     height:40px;
     width:145px;
     outline:none;
@@ -149,11 +149,19 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
     color:black;
     border-radius:4px;
 }
-.about .btn2:hover{
+.about .btn2 a{
+  text-decoration:none;
+  color:black;
+}
+
+ .about  .btn2:hover{
     background-color: black;
     color:white;
     transition:0.5s;
-}
+} 
+
+
+
 .card{
     border:none;
     outline:none;
