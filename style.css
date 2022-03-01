@@ -63,6 +63,7 @@ background-position: 50% ;
 .main h3{
     font-size:2.5rem;
     font-weight:200;
+    color:white;
 }
 .main h2{
     font-size:4.4rem;
@@ -326,11 +327,13 @@ transition:0.5s;
     font-size: 2.25rem;
     line-height: 2rem;
   } */
-  /* .footer {
+ .footer {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
     background-size: cover;
-    
-} */
+    color:white;
+  
+} 
+
   .back-to-top {
     position: fixed;
     bottom: 25px;
