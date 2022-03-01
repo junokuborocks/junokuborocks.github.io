@@ -1,3 +1,10 @@
+function changeClass() {
+  document.getElementById("change").className = "fa-solid fa-tree";
+}
+function changeBack() {
+  document.getElementById("change").className = "fa-solid fa-seedling";
+}
+
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
     for (var i = 0; i < reveals.length; i++) {
