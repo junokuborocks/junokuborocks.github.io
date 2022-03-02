@@ -48,7 +48,7 @@ background-position: 50% ;
 }
 .main h2, h3, h6{
   color:white;
-  -webkit-text-stroke: 1px black;
+  /* -webkit-text-stroke: 1px black; */
 }
 }
 @media (min-width:600px){
@@ -328,7 +328,8 @@ transition:0.5s;
     line-height: 2rem;
   } */
  .footer {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+    /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg"); */
+   background-color: rgba(0,0,0,0.7);
     background-size: cover;
     color:white;
   
