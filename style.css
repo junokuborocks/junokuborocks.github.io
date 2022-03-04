@@ -187,6 +187,7 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
   position:relative;
   transition:transform 1s;
   transform-style:preserve-3d;
+  background-color:transparent;
 }
 .flipcard_face{
   position:absolute;
@@ -230,7 +231,12 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
     margin-bottom: 20px;
 
 }
-
+@media screen and (min-width: 960px){
+.card:hover .circle{
+background-color: black;
+color:white;
+transition:0.5s;
+}}
 .control ul li{
     list-style:none;
     background-color:black;
