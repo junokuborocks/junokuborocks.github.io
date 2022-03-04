@@ -40,3 +40,18 @@ function reveal() {
   // }
 
 // 
+
+// var flipCards=document.querySelectorAll('.flipCard');
+// [...flipCards].forEach((card)=>{
+//   card.addEventListener('click', function(){
+//     card.classList.toggle('is-flipped');
+//   })
+// })
+
+var cards = document.querySelectorAll('.card');
+
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('is-flipped');
+  });
+});
