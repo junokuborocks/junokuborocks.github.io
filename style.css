@@ -177,12 +177,7 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
 .card p{
     color:grey;
 }
-@media screen and (max-width: 960px){
-.scene{
-  /* width:auto;
-  height: 30vh;
-  perspective: 600px; */
-}}
+
 .scene{
   perspective:600px;
 }
@@ -202,6 +197,7 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
 }
 .flipcard_face--back{
   transform:rotateY(180deg);
+  background-color:red;
 }
 .flipcard.is-flipped{
   transform: rotateY(180deg);
