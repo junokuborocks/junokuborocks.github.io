@@ -1,3 +1,15 @@
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("webpage").style.display = "block";
+}
+
+
 function changeClass() {
   document.getElementById("change").className = "fa-solid fa-tree";
 }
