@@ -31,11 +31,11 @@ function reveal() {
     }
   }
 
-  var cv=document.getElementById('cv');
-  cv.addEventListener("click", function(){
+  // var cv=document.getElementById('cv');
+  // cv.addEventListener("click", function(){
   
-      alert('Downloading CV...');
-  })
+  //     alert('Downloading CV...');
+  // })
   // window.addEventListener("scroll", reveal);
 
   // document.onreadystatechange = function () {
