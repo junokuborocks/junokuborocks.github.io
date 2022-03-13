@@ -67,7 +67,9 @@ navbar{
   animation: blink .6s linear infinite alternate;
 }
 
-
+.sentence{
+  color:white;
+}
 .top{
   background-image:linear-gradient(to bottom right, #5e80cc, #191440);
 }

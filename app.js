@@ -41,7 +41,7 @@ async function deleteSentence(eleRef) {
 //   await waitForMs(2000);
 //   deleteSentence("#sentence");
 // });
-const carouselText=[{text:"WEB DEVELOPER"}, {text:"BARTENDER"}];
+const carouselText=[{text:"WEB DEVELOPER"}, {text:"BARTENDER"}, {text:"BOYFRIEND"}];
 async function carousel(carouselList, eleRef) {
   var i = 0;
   while(true) {
@@ -54,6 +54,9 @@ async function carousel(carouselList, eleRef) {
     if(i >= carouselList.length) {i = 0;}
   }
 }
+$( document ).ready(async function() {
+  carousel(carouselText, "#sentence")
+});
 
 
 function changeClass() {
