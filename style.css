@@ -69,6 +69,7 @@ navbar{
 
 .sentence{
   color:white;
+  font-weight:bold;
 }
 .top{
   background-image:linear-gradient(to bottom right, #5e80cc, #191440);
