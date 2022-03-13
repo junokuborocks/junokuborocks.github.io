@@ -39,6 +39,7 @@
     <!-- <div style="display:none;" id="webpage"> -->
 
   <body>
+    <div class="top">
     <nav class="navbar navbar-expand-lg text-uppercase">
       <div class="container d-flex">
         <a class="navbar-brand font-weight-bold" href="#" title="Help me grow!"
@@ -83,11 +84,14 @@
     <section class="main py-5">
       <div class="container py-5">
         <div class="row py-5">
-          <div class="col-lg-6 py-5">
+          <div class="col py-5">
             <h3>Hello, I'm</h3>
             <h2>Jun Okubo</h2>
-
-            <h6 class="pt-4">Web Developer/Bartender</h6>
+            <div class="typing-container">
+              <span class="sentence" id="sentence"></span>
+              <span class="input-cursor"></span>
+            </div>
+            <!-- <h6 class="pt-4">Web Developer/Bartender</h6> -->
             <a href="mailto:junokuborocks@gmail.com" target="_newtab"
               ><button type="button" class="btn1 mt-5 me-2">Email Me</button></a
             >
@@ -95,23 +99,17 @@
               ><button type="button" class="btn2 mt-5">Porfolio</button></a
             >
           </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img src="./junbibivector-03.png" class="w-50 " alt="">
+          </div>
         </div>
       </div>
     </section>
-
-    <section class="about py-5 reveal " id="about">
-      <div class="container py-2">
-        <div class="row">
-          <div class="col-lg-5">
-            <img
-              src="./Selfie.jpg"
-              alt=".."
-              class="img-fluid"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            />
-          </div>
-          <div class="col-lg-7 pt-2" >
+  </div>
+    <section class="about py-5 reveal d-flex justify-content-center " id="about">
+      <div class="container w-50 py-2 ">
+          <div class="text-center pt-2" >
+          <div class="about-info">
             <h1>About Me</h1>
             <p>Web Developer by day, bartender by night</p>
             <p class="py-2">
@@ -121,8 +119,8 @@
               I am fully self-taught, I would be more than happy for some
               mentorship.
             </p>
+          </div>
             <a href="https://github.com/junokuborocks/resume/raw/main/Jun%20Okubo-%20Curriculum%20Vitae.docx.pdf">
-
             <button
               class="btn1 mt-2"
               id="cv"
@@ -144,14 +142,14 @@
               </button></a
             >
           </div>
-        </div>
+        
       </div>
     </section>
-    <section class="skills py-5 bg-light reveal" id="skills">
+    <section class="skills py-5 reveal" id="skills">
       <div class="container">
         <h1 class="text-center pb-5">Skills</h1>
         <div class="row pb-3" data-aos="slide-up" data-aos-duration="1000">
-          <div class="col-lg-4 mb-3 scene">
+          <div class="col-lg-4 mb-3 scene skillcard">
             <div class="flipcard card text-center">
               <div class="flipcard_face flipcard_face--front">
                 <div class="card-body">
@@ -160,7 +158,9 @@
                   </div>
                   <h4 class="fw-bold pb-2">Web Design</h4>
                   <p>Simple minimalistic approach to my designs.</p>
+                 <p class="details"><span> View Details</span></p>
                 </div>
+               
               </div>
               <div class="flipcard_face flipcard_face--back">
                 <div
