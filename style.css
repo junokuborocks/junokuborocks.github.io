@@ -133,7 +133,7 @@ text-decoration:none;
 color:white;
 }
 .jun{
-  background-color: transparent;
+  /* background-color: transparent; */
 }
  .about img{
      filter:grayscale(100%);
