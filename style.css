@@ -23,7 +23,7 @@ body{
   /* background:url("./loading.gif") no-repeat center center rgba(0,0,0,0.25) */
 /* background-image: url("./loading.gif"); */
 /* } */ 
-navbar{
+.navbar{
     background:transparent;
 
 }
@@ -55,7 +55,7 @@ navbar{
   width: 2px;
   height: 30px;
   background-color: white;
-  margin-left: 8px;
+  margin-left: 2px;
 }
 @keyframes blink {
   0% {opacity: 1;}
@@ -67,9 +67,11 @@ navbar{
   animation: blink .6s linear infinite alternate;
 }
 
-.sentence{
+#sentence{
   color:white;
   font-weight:bold;
+font-size:30px;
+letter-spacing:2px;
 }
 .top{
   background-image:linear-gradient(to bottom right, #5e80cc, #191440);
@@ -130,8 +132,8 @@ border-radius:5px;
 text-decoration:none;
 color:white;
 }
-.vector{
-  width:10%;
+.jun{
+  background-color: transparent;
 }
  .about img{
      filter:grayscale(100%);
