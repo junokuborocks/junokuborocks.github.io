@@ -57,7 +57,7 @@ body{
   width: 2px;
   height: 30px;
   background-color: white;
-  margin-left: 2px;
+  margin-left: 1px;
   animation: blink .6s linear infinite alternate;
 }
 @keyframes blink {
