@@ -225,7 +225,7 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
   position:relative;
   transition:transform 1s;
   transform-style:preserve-3d;
-  background-color:white;
+  background-color:transparent;
 }
 .flipcard_face{
   position:absolute;
@@ -245,9 +245,12 @@ box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51);
 .details span:hover{
   cursor:pointer;
 }
+.flipcard_face--front{
+  background-color:white;
+}
 .flipcard_face--back{
   transform:rotateY(180deg);
- background-color:transparent;
+ background-color:white;
 }
 
 .flipcard.is-flipped{
