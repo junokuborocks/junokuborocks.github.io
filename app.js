@@ -41,7 +41,7 @@ async function deleteSentence(eleRef) {
 //   await waitForMs(2000);
 //   deleteSentence("#sentence");
 // });
-const carouselText=[{text:"WEB DEVELOPER"}, {text:"BARTENDER"}, {text:"KAI'S BOYFRIEND"}];
+const carouselText=[ {text:"BARTENDER"},{text:"WEB DEVELOPER"}];
 async function carousel(carouselList, eleRef) {
   var i = 0;
   while(true) {
