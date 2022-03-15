@@ -79,6 +79,9 @@ font-size:30px;
     color:white;
     font-weight:bold;
   font-size:20px;}
+  .input-cursor{
+    height:20px;
+  }
 }
 .top{
   background-image:linear-gradient(to bottom right, #5e80cc, #191440);
