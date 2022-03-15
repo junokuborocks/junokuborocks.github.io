@@ -44,9 +44,9 @@ body{
     color:white;
     cursor:pointer;
 }
-.main .container{
-  max-height:100vh;
-}
+/* .main .container{
+  max-height:80vh;
+} */
 .main h2, h3, h6{
   color:white;
   /* -webkit-text-stroke: 1px black; */
@@ -67,12 +67,15 @@ body{
   100% {opacity: 0;}
 }
 
+
 #sentence{
   color:white;
   font-weight:bold;
 font-size:30px;
-letter-spacing:2px;
+
 }
+
+
 .top{
   background-image:linear-gradient(to bottom right, #5e80cc, #191440);
 }
@@ -136,9 +139,10 @@ color:white;
 
  .jun{
    width:100%;
-   
  }
-
+.main {
+  max-height:110vh;
+}
  .about img{
      filter:grayscale(100%);
      -webkit-box-shadow: 9px 12px 21px -5px rgba(0,0,0,0.51); 
