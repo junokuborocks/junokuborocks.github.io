@@ -56,15 +56,13 @@ body{
   height: 30px;
   background-color: white;
   margin-left: 2px;
+  animation: blink .6s linear infinite alternate;
 }
 @keyframes blink {
   0% {opacity: 1;}
   40% {opacity: 1;}
   60% {opacity: 0;}
   100% {opacity: 0;}
-}
-.input-cursor { 
-  animation: blink .6s linear infinite alternate;
 }
 
 #sentence{
@@ -136,6 +134,7 @@ color:white;
 
  .jun{
    width:100%;
+   
  }
 
  .about img{
