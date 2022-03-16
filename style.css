@@ -74,15 +74,7 @@ body{
 font-size:30px;
 
 }
-@media screen and (max-width: 960px){
-  #sentence{
-    color:white;
-    font-weight:bold;
-  font-size:20px;}
-  .input-cursor{
-    height:20px;
-  }
-}
+
 .top{
   background-image:linear-gradient(to bottom right, #5e80cc, #191440);
 }
@@ -102,6 +94,17 @@ font-size:30px;
     line-height:1;
     border-bottom:3px solid rgb(233, 20, 109);
     width:68%;
+}
+@media screen and (max-width: 960px){
+  
+  #sentence{
+    color:white;
+    font-weight:bold;
+  font-size:20px;}
+  .input-cursor{
+    height:20px;
+  }
+  
 }
 
 .main .btn1{
