@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Jun's Place</title>
+    <title>Jun's Work In Progress</title>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -54,7 +54,7 @@
             ></i
           ></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -62,7 +62,8 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
@@ -85,9 +86,9 @@
 
       <!-- main section start -->
       <section class="main py-5">
-        <div class="container py-5">
+        <div class="container py-5 px-5">
 
-          <div class="row py-5 h-75 ">
+          <div class="row  h-75 ">
             <div class="col-6 py-5 ">
               <h3>Hello, I'm</h3>
               <h2>Jun Okubo</h2>
@@ -96,17 +97,10 @@
                 <span class="input-cursor"></span>
               </div>
               <!-- <h6 class="pt-4">Web Developer/Bartender</h6> -->
-              <a href="mailto:junokuborocks@gmail.com" target="_newtab"
-                ><button type="button" class="btn1 mt-5 me-2">
-                  Email Me
-                </button></a
-              >
-              <a href="#portfolio"
-                ><button type="button" class="btn2 mt-5">Porfolio</button></a
-              >
+              
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center position-relative">
-              <img src="./profile.gif" class="jun " alt="" />
+              <img src="./profile.gif" class="jun w-75" alt="" />
             </div>
           </div>
         </div>
@@ -131,7 +125,7 @@
             href="https://github.com/junokuborocks/resume/raw/main/Jun%20Okubo-%20Curriculum%20Vitae.docx.pdf"
           >
             <button
-              class="btn1 mt-2"
+              class="btn1 mt-2 "
               id="cv"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -140,9 +134,9 @@
               Download CV
             </button>
           </a>
-          <a href="mailto:junokuborocks@gmail.com" target="_newtab"
+          <a href="mailto:junokuborocks@gmail.com"  target="_newtab"
             ><button
-              class="btn2"
+              class="btn2 "
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="150"
@@ -810,10 +804,11 @@
     <a
       id="back-to-top"
       href="#"
-      class="btn btn-light btn-lg back-to-top"
+      class=" back-to-top"
       role="button"
-      >TOP<i class="fa fa-chevron-up"></i
-    ></a>
+      title="To Top"
+      ><img src="./totop.png" alt="">
+    </a>
     <script>
       $(document).ready(function () {
         $(".button").click(function () {
