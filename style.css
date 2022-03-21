@@ -148,7 +148,17 @@ color:white;
 
 
  .jun{
-   width:100%;
+   position:relative;
+   width:40%;
+   left:0%;
+z-index:1;
+ }
+ .laptop{
+   position:relative;
+   width:40%;
+   top:10%;
+   z-index:2;
+   left:20%
  }
 .main {
   max-height:110vh;

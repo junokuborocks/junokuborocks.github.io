@@ -116,3 +116,16 @@ var cards = document.querySelectorAll('.card');
     card.classList.toggle('is-flipped');
   });
 });
+let first=1;
+let second=1;
+console.log(1);
+console.log(1);
+
+for( i=1; i<10; i++){
+ 
+  let current=first+second;
+  console.log(current);
+  first=second;
+  second=current;
+  
+  }
